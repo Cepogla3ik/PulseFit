@@ -1,11 +1,11 @@
-import Element from "./Element/Element";
+import Header from "./Header/Header";
 import styles from "./Index.module.scss";
 
 export default function Index() {
   
   return (
     <div className={styles.index}>
-      <Element />
+      <Header />
     </div>
   );
 }

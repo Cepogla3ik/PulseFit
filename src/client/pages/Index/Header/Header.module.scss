@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  height: $header-height;
+  position: fixed;
+  background-color: hsl(250 17.5% 50%);
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Sans-Serif;
+  color: hsl(250 20% 30%);
+  @include flex-center;
+}

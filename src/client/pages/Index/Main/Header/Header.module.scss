@@ -1,13 +1,20 @@
 .header {
-  position: fixed;
+  position: relative;
   background: transparent;
   opacity: 0.25;
-  max-width: 400px;
+  min-width: 400px;
+  width: calc(100vw / 3);
   font-size: clamp(24px, 5vw, 64px);
   font-weight: 800;
   font-family: Times New Roman;
   color: hsl(0 0% 5%);
   border-radius: 20px 20px 0 0;
-  padding: 5vw;
+  padding: 3vw max(2.5vw, 20px);
+  user-select: none;
   @include flex-center;
+
+  & span {
+    display: block;
+    width: 100%;
+  }
 }

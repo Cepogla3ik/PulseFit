@@ -1,6 +1,6 @@
 .menu {
   position: relative;
-  width: calc(25vw - $index-padding);
+  width: calc(max(125px, $menu-viewport-width) - $index-padding);
   height: calc(100dvh - $index-padding * 2);
   background-image: linear-gradient(hsl(0 0% 30% / 0.8), hsl(0 0% 20% / 0.8));
   border-radius: 20px;

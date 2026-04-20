@@ -1,2 +1,6 @@
 $index-padding: 10px;
+$main-viewport-width: 80vw;
 $logo-perc-size: 65%;
+
+// Derived variables
+$menu-viewport-width: 100vw - $main-viewport-width;

@@ -1,6 +1,6 @@
 .main {
   position: relative;
-  width: calc(75vw - $index-padding);
+  width: calc($main-viewport-width - $index-padding);
   height: calc(100dvh - $index-padding * 2);
   background-image: linear-gradient(to left bottom, hsl(0 0% 70%), hsl(0 0% 80%));
   border-radius: 20px;

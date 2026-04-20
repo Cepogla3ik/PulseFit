@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  @include flex-center;
+  filter: opacity(0.75);
+  
+  &::after {
+    content: "";
+    width: $logo-perc-size;
+    height: $logo-perc-size;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .logo {
+    position: relative;
+    width: $logo-perc-size;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    user-select: none;
+  }
+}

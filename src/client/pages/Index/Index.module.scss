@@ -2,5 +2,8 @@
   width: 100vw;
   height: 100dvh;
   position: relative;
-  background-color: hsl(235 15% 45%);
+  background-color: hsl(0 0% 60%);
+  display: flex;
+  padding: $index-padding;
+  column-gap: 10px;
 }

@@ -1,11 +1,13 @@
-import Header from "./Header/Header";
+import Menu from "./Menu/Menu";
+import Main from "./Main/Main";
 import styles from "./Index.module.scss";
 
 export default function Index() {
   
   return (
     <div className={styles.index}>
-      <Header />
+      <Menu />
+      <Main />
     </div>
   );
 }

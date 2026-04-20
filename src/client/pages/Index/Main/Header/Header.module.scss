@@ -1,0 +1,13 @@
+.header {
+  position: fixed;
+  background: transparent;
+  opacity: 0.25;
+  max-width: 400px;
+  font-size: clamp(24px, 5vw, 64px);
+  font-weight: 800;
+  font-family: Times New Roman;
+  color: hsl(0 0% 5%);
+  border-radius: 20px 20px 0 0;
+  padding: 5vw;
+  @include flex-center;
+}
